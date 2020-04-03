@@ -1,0 +1,367 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{c65ebf4e-6761-462f-b2fc-9ce08824eb27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{58310523-5e1f-4e2d-9632-75b2d5e43698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{c99eee82-b82e-4bdd-8076-67b2f0d8d74c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="A_PCH">
+      <UniqueIdentifier>{a1a97197-9140-4817-bcd3-6f5e8e3c5de0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_Scene">
+      <UniqueIdentifier>{dbe7674e-e909-48a5-b6bc-61f23fb2609e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_UI">
+      <UniqueIdentifier>{440f4b28-e5f5-48d8-afd7-82f4930fc1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_UI\type">
+      <UniqueIdentifier>{3a66a269-9f39-42e5-8316-e73373845f47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_Scene\type">
+      <UniqueIdentifier>{229aaeda-8530-4ea2-96ca-670575cbf30f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_Object">
+      <UniqueIdentifier>{78687ee3-51ba-4653-802f-84ef789bdb6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_Object\Unit">
+      <UniqueIdentifier>{af39ac19-f599-4952-a0f2-ddc2e113e36e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_Object\Unit\Player">
+      <UniqueIdentifier>{c6669f34-843a-41c6-bbd8-a97228c64102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_UI\type\Icons">
+      <UniqueIdentifier>{8fef9942-26d6-430e-b5dc-cbbdd1bce5bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_UI\base">
+      <UniqueIdentifier>{07ad248b-69f8-4424-9571-dfadef4d98dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_Object\type">
+      <UniqueIdentifier>{4e81356f-146b-405c-b320-85e8a044b6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="I_UI\type\Gauges">
+      <UniqueIdentifier>{18bb7513-a700-4933-a511-2a66e6024788}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="PunchClub.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\GameNode.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Image.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Util.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Random.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\SingletonBase.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="MainGame\MainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Base\Timer.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\TimeManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\SceneManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>A_PCH</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\Scene.h">
+      <Filter>I_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GameOverScene.h">
+      <Filter>I_Scene\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\GymScene.h">
+      <Filter>I_Scene\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\HomeScene.h">
+      <Filter>I_Scene\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\LeagueFightingScene.h">
+      <Filter>I_Scene\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\LeagueWaitingScene.h">
+      <Filter>I_Scene\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\ShopScene.h">
+      <Filter>I_Scene\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\SkillTreeScene.h">
+      <Filter>I_Scene\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\TitleScene.h">
+      <Filter>I_Scene\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager\KeyManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI.h">
+      <Filter>I_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\InGameUI.h">
+      <Filter>I_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\HudMapScene.h">
+      <Filter>I_Scene\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Object.h">
+      <Filter>I_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Unit.h">
+      <Filter>I_Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Window.h">
+      <Filter>I_UI\type</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Button.h">
+      <Filter>I_UI\type</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PrefightStat.h">
+      <Filter>I_UI\type</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\PrefightSkillSet.h">
+      <Filter>I_UI\type</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Slot.h">
+      <Filter>I_UI\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene\WorkScene.h">
+      <Filter>I_Scene\type</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Icons\Icon.h">
+      <Filter>I_UI\type\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Icons\MapIcon.h">
+      <Filter>I_UI\type\Icons</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\uiEnum.h">
+      <Filter>I_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\MyText.h">
+      <Filter>I_UI\base</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Hint.h">
+      <Filter>I_UI\type</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Cursor.h">
+      <Filter>I_UI\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Facility.h">
+      <Filter>I_Object\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\objEnum.h">
+      <Filter>I_Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Npc.h">
+      <Filter>I_Object\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\FightGauge.h">
+      <Filter>I_UI\type\Gauges</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Gauge.h">
+      <Filter>I_UI\type\Gauges</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\HudBack.h">
+      <Filter>I_UI\type\Gauges</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Player.h">
+      <Filter>I_Object\Unit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Furniture.h">
+      <Filter>I_Object\type</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\Bead.h">
+      <Filter>I_UI\type</Filter>
+    </ClInclude>
+    <ClInclude Include="Object\Enemy.h">
+      <Filter>I_Object\Unit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PunchClub.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\GameNode.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Image.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Util.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="MainGame\MainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Base\Timer.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\TimeManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\SceneManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>A_PCH</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\Scene.cpp">
+      <Filter>I_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GameOverScene.cpp">
+      <Filter>I_Scene\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\GymScene.cpp">
+      <Filter>I_Scene\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\HomeScene.cpp">
+      <Filter>I_Scene\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\LeagueFightingScene.cpp">
+      <Filter>I_Scene\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\LeagueWaitingScene.cpp">
+      <Filter>I_Scene\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\ShopScene.cpp">
+      <Filter>I_Scene\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\SkillTreeScene.cpp">
+      <Filter>I_Scene\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\TitleScene.cpp">
+      <Filter>I_Scene\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager\KeyManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI.cpp">
+      <Filter>I_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\InGameUI.cpp">
+      <Filter>I_UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\HudMapScene.cpp">
+      <Filter>I_Scene\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Player.cpp">
+      <Filter>I_Object\Unit\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Object.cpp">
+      <Filter>I_Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Unit.cpp">
+      <Filter>I_Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Window.cpp">
+      <Filter>I_UI\type</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Button.cpp">
+      <Filter>I_UI\type</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\PrefightStat.cpp">
+      <Filter>I_UI\type</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\PrefightSkillSet.cpp">
+      <Filter>I_UI\type</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Slot.cpp">
+      <Filter>I_UI\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\WorkScene.cpp">
+      <Filter>I_Scene\type</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Icons\Icon.cpp">
+      <Filter>I_UI\type\Icons</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Icons\MapIcon.cpp">
+      <Filter>I_UI\type\Icons</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MyText.cpp">
+      <Filter>I_UI\base</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Hint.cpp">
+      <Filter>I_UI\type</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Cursor.cpp">
+      <Filter>I_UI\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Facility.cpp">
+      <Filter>I_Object\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Npc.cpp">
+      <Filter>I_Object\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\FightGauge.cpp">
+      <Filter>I_UI\type\Gauges</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Gauge.cpp">
+      <Filter>I_UI\type\Gauges</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\HudBack.cpp">
+      <Filter>I_UI\type\Gauges</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Furniture.cpp">
+      <Filter>I_Object\type</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\Bead.cpp">
+      <Filter>I_UI\type</Filter>
+    </ClCompile>
+    <ClCompile Include="Object\Enemy.cpp">
+      <Filter>I_Object\Unit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="PunchClub.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="PunchClub.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint" />
+  </ItemGroup>
+</Project>
