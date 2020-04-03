@@ -460,7 +460,7 @@ void Player::action()
 			// 일정 시간을 주고, 행동을 한다.
 			_time += TIMEMANAGER->get_elapsedTime();
 			// #Time 2.6f
-			if (0.6f <= _time)
+			if (2.6f <= _time)
 			{
 				switch (_actionType ^ MYOBJECT::RUN_PLAYER)
 				{

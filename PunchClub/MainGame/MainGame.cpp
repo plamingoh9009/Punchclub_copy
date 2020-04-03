@@ -17,7 +17,7 @@ HRESULT MainGame::init()
 {
 	GameNode::init(true);
 	add_scenes_toManager();
-	SCENEMANAGER->changeScene("Home");
+	SCENEMANAGER->changeScene("Title");
 	return S_OK;
 }
 void MainGame::release()
